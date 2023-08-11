@@ -16,3 +16,4 @@ class Gothanks < Formula
     assert_match "no Github token found", shell_output(bin/"gothanks", 255)
   end
 end
+
